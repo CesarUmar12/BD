@@ -28,8 +28,8 @@
     [self creaOabredb];
     self.view.backgroundColor=[UIColor redColor];// para usar un color de fondo.
     .
-   // self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"apple.png"]];//Para poner imagenes de fondo
-   // _uilista.backgroundColor= [UIColor colorWithPatternImage:[UIImage imageNamed:@"apple.png"]];
+   self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"apple.png"]];//Para poner imagenes de fondo
+   _uilista.backgroundColor= [UIColor colorWithPatternImage:[UIImage imageNamed:@"apple.png"]];
     
     [[self barraBuscar]setDelegate:self];
 }
